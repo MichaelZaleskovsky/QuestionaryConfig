@@ -12,7 +12,7 @@ spring:
   datasource:
     url: "jdbc:mysql://localhost:3306/questions?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Europe/Moscow"
     username: "root"
-    password: "{cypher}3707c44f7d54d4c8b35d7a8435a95d56713961a7355f0fa8dbe62ebdfb780667"
+    password: "{cypher}b27916eb05970b2b70303f006e3dba724deebd1b1edca9b00491d5528e8c1aa3"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
     
