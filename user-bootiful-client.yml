@@ -15,7 +15,12 @@ spring:
     password: "{cipher}b27916eb05970b2b70303f006e3dba724deebd1b1edca9b00491d5528e8c1aa3"
     testWhileIdle: "true"
     validationQuery: "SELECT 1"
-    
+
+  security:
+    oauth2:
+      resource:
+        user-info-uri: http://localhost:8901/user 
+ 
 #security:
 #  basic:
 #    enabled: "false"
