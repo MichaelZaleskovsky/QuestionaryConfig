@@ -37,4 +37,5 @@ eureka:
     service-url:
       defaulfZone: http://localhost:8761/eureka
     
-    
+signing:
+  key: 345345fsdgsf5345
